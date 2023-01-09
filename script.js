@@ -34,8 +34,8 @@ const checkwin=()=>{
             document.querySelector('.line1').style.height = "25vw";
             }
             if(boxtexts[e[0]].innerText === "X"){
-                document.getElementsByTagName('img')[0].style.width="170px"
-                document.getElementsByTagName('img')[1].style.width="190px"
+                document.getElementsByTagName('img')[0].style.width="160px"
+                document.getElementsByTagName('img')[1].style.width="180px"
                 sinchan.play();
                 sinchanwin.play();
             }
